@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ig-wrapper {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 64px auto;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .ig-phone {
+        display: none;
+    }
+}
+
+.ig-phone {
+    flex-basis: 380.32px;
+}
+
+.ig-logo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.fb-logo {
+    width: 16px;
+    height: 16px;
+}
+
+.apple-logo, .google-logo {
+    height: 40px;
+}
