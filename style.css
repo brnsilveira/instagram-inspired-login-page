@@ -12,8 +12,15 @@ a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+    .ig-phone {
+        display: none;
+    }
+}
+
 .ig-wrapper {
     display: flex;
+    flex-grow: 1;
     max-width: 1440px;
     width: 100%;
     margin: 64px auto;
@@ -21,24 +28,76 @@ a {
     padding-bottom: 32px;
 }
 
-@media screen and (max-width: 768px) {
-    .ig-phone {
-        display: none;
-    }
-}
-
 .ig-phone {
     flex-basis: 380.32px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.ig-continue {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+}
+
+.g-rectangle {
+    border-radius: 1px;
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 20px 0;
+}
+
+input {
+    margin: 0 40px 6px;
+    height: 26px;
+    width: 70%;
+    padding-left: 14px;
+    border: 1px solid #8e8e8e;
+    background-color: #fafafa;
+}
+
+.or-section {
+    display: flex;
+    width: 80%;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 10px 40px 18px
+}
+
+.or-rectangle {
+    width: 100%;
+    height: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-self: center;
+    background-color: #dbdbdb;
+}
+
+.or-text {
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .ig-logo {
     max-height: 100%;
     max-width: 100%;
+    margin-bottom: 20px;
 }
 
 .fb-logo {
     width: 16px;
     height: 16px;
+    object-fit: contain;
 }
 
 .apple-logo, .google-logo {
