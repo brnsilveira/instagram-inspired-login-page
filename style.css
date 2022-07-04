@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #212121;
+    background-color: #121212;
 }
 
 a {
@@ -58,8 +58,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #9E9E9E;
-    border: 1px solid #212121;
+    background-color: rgb(229, 229, 229);
+    border: 1px solid #000000;
 }
 
 .group p {
@@ -67,7 +67,7 @@ a {
 }
 
 .sign-up {
-    color: #e3e3e3;
+    color: #3700B3;
     font-weight: 600;
 }
 
@@ -93,7 +93,7 @@ a {
     line-height: 28px;
     width: 74%;
     height: 28px;
-    background-color: #424242;
+    background-color: #6200ee;
     margin-left: 40px;
     margin-right: 40px;
 }
