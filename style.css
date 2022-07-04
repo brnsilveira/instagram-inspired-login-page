@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #212121;
 }
 
 a {
@@ -37,8 +37,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
-    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: #9E9E9E;
+    border: 1px solid #212121;
+}
+
+.group p {
+    font-size: 14px;
+}
+
+.sign-up {
+    color: #e3e3e3;
+    font-weight: 600;
 }
 
 .grow {
@@ -63,19 +72,20 @@ a {
     line-height: 28px;
     width: 74%;
     height: 28px;
-    background-color: #0095f6;
+    background-color: #424242;
     margin-left: 40px;
     margin-right: 40px;
 }
 
 .fb-login {
-    color: #385185;
+    color: #244584;
     font-weight: 600;
 }
 
 .forgot-password {
-    color: #00376b;
+    color: #283593;
     font-size: 12px;
+    font-weight: 500;
     line-height: 16px;
 }
 
@@ -99,7 +109,7 @@ a {
     padding: 4px;
     border-radius: 2px;
     margin-top: 6px;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #15181c;
     background-color: #fafafa;
 }
 
@@ -115,18 +125,20 @@ a {
     margin-right: 10px;
     margin-left: 10px;
     align-self: center;
-    background-color: #dbdbdb;
+    background-color: #15181c;
 }
 
 .or-text {
-    color: #8e8e8e;
+    color: #15181c;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .get-app p {
+    color: #f6eddb;
     text-align: center;
+    font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
