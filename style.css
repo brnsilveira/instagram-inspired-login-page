@@ -16,6 +16,27 @@ a {
     .ig-phone {
         display: none;
     }
+
+    .ig-continue {
+        margin: 20px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .log-in {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .fb-group {
+        margin-top: 15px;
+    }
+
+    .forgot-password {
+        margin-top: 15px;
+    }
 }
 
 .ig-wrapper {
